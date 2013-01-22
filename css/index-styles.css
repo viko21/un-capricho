@@ -1,0 +1,12 @@
+/*CSS for the index page*/
+html, body {
+  margin:0;
+  padding: 20px 0 0;
+}
+nav {
+  border: 1px solid #1C1C1C;
+  margin: 0 auto;
+  height: 180px;
+  width: 90%;
+  border-radius: 4px;
+}
