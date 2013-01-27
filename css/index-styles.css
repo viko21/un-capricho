@@ -5,8 +5,43 @@ html, body {
 }
 nav {
   border: 1px solid #1C1C1C;
-  margin: 0 auto;
+  border-radius: 4px 4px 4px 4px;
   height: 180px;
-  width: 90%;
-  border-radius: 4px;
+  margin: 0 auto;
+  width: 92%;
+}
+#header{
+  height: 120px;
+}
+#tabs{ 
+  display: block;
+  height: 60px;
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+  background-color: #088A68;
+}
+#tabs li {
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    margin: 5px 0;
+    text-align: center;
+    width: 24.76%;
+}
+#tabs li>a {
+  display: inline-block;
+  font-size: 22px;
+  height: 50px;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+  color:#CEF6F5;
+}
+#tabs li>a:hover {
+  border-radius:20px;
+  background-color: #0B614B;
+  color: #CEF6F5;
+  padding-right:10px;
+  padding-left: 10px;
 }
